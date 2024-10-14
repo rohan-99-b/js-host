@@ -244,9 +244,26 @@
 //     }
 // }
 
+//example of call stack and execution context
+// var x = 10
+// function b(num1, num2) {
+//     const sum = num1+num2;
+//     return sum;
+// }
+// const result = b(1,9);
+//console.log(result)
 
 
-
+import { a } from "./test.js";
+//import {c, testFunc} from "./test.js";
+import c from "./test.js";
+// import {add} from './test.js'
+console.log(a)
+c()
+//testFunc()
+//testFunc()
+// const sum = add(2,3)
+// console.log(sum)
 
 
 
