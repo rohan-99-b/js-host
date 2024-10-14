@@ -254,6 +254,8 @@
 //console.log(result)
 
 
+
+//how to import methods and all in nodejs
 import { a } from "./test.js";
 //import {c, testFunc} from "./test.js";
 import c from "./test.js";
